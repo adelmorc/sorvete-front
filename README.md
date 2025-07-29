@@ -1,50 +1,52 @@
-# Welcome to your Expo app 👋
+# 🍦 Sorveteria App - Frontend
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Este é o repositório do frontend do aplicativo "Sorveteria", desenvolvido com React Native usando o Expo. Ele interage com a API RESTful construída com Django REST Framework.
 
-## Get started
+## ✨ Funcionalidades
 
-1. Install dependencies
+-   Listagem de produtos (sorvetes, picolés, etc.)
+-   Visualização de detalhes do produto.
+-   Autenticação de usuários (Login, Cadastro).
+-   Gerenciamento de estoque (para usuários com permissão).
+-   Integração com a API do backend.
 
-   ```bash
-   npm install
-   ```
+## 🚀 Tecnologias Utilizadas
 
-2. Start the app
+-   **React Native**
+-   **Expo SDK**
+-   **JavaScript / TypeScript**
+-   `fetch` para requisições HTTP
 
-   ```bash
+## ⚙️ Pré-requisitos
+
+Antes de começar, certifique-se de ter instalado em sua máquina:
+
+-   [Node.js](https://nodejs.org/) (versão LTS recomendada)
+-   [npm](https://www.npmjs.com/get-npm) ou [Yarn](https://yarnpkg.com/lang/en/docs/install/)
+-   [Expo CLI](https://docs.expo.dev/get-started/installation/) (`npm install -g expo-cli`)
+
+## 💻 Instalação e Execução
+
+Siga os passos abaixo para configurar e rodar o projeto localmente:
+
+1.  **Clone este repositório:**
+    ```bash
+    git clone [https://github.com/seu_usuario/sorvete-front.git](https://github.com/seu_usuario/sorvete-front.git)
+    cd sorvete-front
+    ```
+2.  **Instale as dependências:**
+    ```bash
+    npm install
+    ```
+3.  **Configure as variáveis de ambiente:**
+    Crie um arquivo `.env` na raiz do projeto (`sorvete-front/.env`) com as seguintes variáveis:
+    ```
+    API_BASE_URL=http://localhost:8000 # Ou o endereço IP/URL do seu backend
+    ```
+    *Lembre-se: O arquivo `.env` não deve ser enviado para o Git.*
+
+4.  **Execute o aplicativo Expo:**
+    ```bash
     npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+    ```
+    Isso abrirá o Expo Developer Tools no seu navegador. Você pode então escanear o QR Code com o aplicativo Expo Go no seu celular, ou rodar em um emulador/simulador.
