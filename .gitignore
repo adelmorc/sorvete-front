@@ -3,11 +3,13 @@
 # dependencies
 node_modules/
 
+# Variáveis de ambiente
+.env
+
 # Expo
 .expo/
 dist/
 web-build/
-expo-env.d.ts
 
 # Native
 *.orig.*
