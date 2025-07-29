@@ -17,6 +17,7 @@ Este é o repositório do frontend do aplicativo "Sorveteria", desenvolvido com 
 -   **JavaScript / TypeScript**
 -   `fetch` para requisições HTTP
 
+
 ## ⚙️ Pré-requisitos
 
 Antes de começar, certifique-se de ter instalado em sua máquina:
